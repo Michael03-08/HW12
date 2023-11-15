@@ -8,9 +8,9 @@ public class Person {
     private  String placeOfWork;
     private double salary;
 
-    private Person(){
+    protected Person(){
     }
-    private Person(String name, String jobTitle, String placeOfWork, double age, double salary){
+    protected Person(String name, String jobTitle, String placeOfWork, double age, double salary){
         this.name = name;
         this.age = age;
         this.jobTitle = jobTitle;
